@@ -55,8 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 6: imageViewOne.setImageResource(R.drawable.dice6);
                 break;
-            default:
-                Toast.makeText(this, "Out of Bound", Toast.LENGTH_SHORT).show();
+
         }
 
         switch (RandNumTwo)
@@ -73,8 +72,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 6: imageViewTwo.setImageResource(R.drawable.dice12);
                 break;
-            default:
-                Toast.makeText(this, "Out of Bound", Toast.LENGTH_SHORT).show();
         }
     }
 }
